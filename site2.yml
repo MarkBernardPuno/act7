@@ -28,4 +28,4 @@
 - hosts: file_server
   become: true
   roles:
-    - workstations
+    - file_server
