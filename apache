@@ -1,4 +1,4 @@
-- hosts: server_centos
+- hosts: server_centOS
   become: true
   tasks:
     - name: install apache and php
